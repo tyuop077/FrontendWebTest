@@ -1,0 +1,40 @@
+body {
+    background-color: #E5E5E5;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.auth {
+    position: absolute;
+    display: flex;
+    width: 240px;
+    height: 192px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.auth input {
+    height: 48px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 0 18px 0 18px;
+}
+
+.auth input {
+    background: #FFFFFF;
+    border: 1px solid #ECEBED;
+    box-sizing: border-box;
+    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+}
+
+.auth #send {
+    background: #6979F8;
+    font-weight: bold;
+    line-height: 22px;
+    color: #FFFFFF;
+}
