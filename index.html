@@ -8,16 +8,14 @@
 <body>
 <div class="auth">
     <input type="text" id="login" placeholder="Login">
-    <input type="password" id="password" placeholder="******">
+    <input type="password" id="password" placeholder="******" onclick="toggleVisibility(this)">
     <input type="submit" id="send" value="ВОЙТИ">
-    <div class="toggle" onclick="toggleVisibility()"></div>
 </div>
 </body>
 </html>
 
 <script>
-    const toggle = document.getElementById('toggle');
-    const toggleVisibility = () => {
-        toggle.type = toggle.type === "password" ? "text" : "password";
+    const toggleVisibility = (obj) => {
+        obj.type = obj.type === "password" ? "text" : "password"
     }
 </script>
